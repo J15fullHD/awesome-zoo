@@ -15,4 +15,9 @@ public class Animal {
 	public float getDimensiones() {
 		return dimensiones;
 	}
+
+	public void imprimirDetalles() {
+		System.out.println("Volador: " + volador);
+		System.out.println("Dimensiones: " + dimensiones);
+	}
 }

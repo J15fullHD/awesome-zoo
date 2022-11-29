@@ -7,4 +7,12 @@ public class Animal {
 		volador = esVolador;
 		dimensiones = dimensionesAnimal;
 	}
+
+	public boolean vuela() {
+		return volador;
+	}
+
+	public float getDimensiones() {
+		return dimensiones;
+	}
 }

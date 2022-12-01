@@ -33,4 +33,12 @@ public class Jaula {
   public void setResidente(Animal residenteJaula) {
     residente = residenteJaula;
   }
+
+  public void imprimirDetalles() {
+    System.out.println("Tamaño de la jaula: " + tamanio);
+    System.out.println("Clima de la jaula: " + clima);
+    System.out.println("Características del residente de la Jaula: ");
+    System.out.println("Volador: " + residente.vuela());
+    System.out.println("Dimensiones: " + residente.getDimensiones());
+  }
 }

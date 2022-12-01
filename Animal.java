@@ -1,6 +1,6 @@
 public class Animal {
 
-	private booelan volador;
+	private boolean volador;
 	private float dimensiones;
 
 	public Animal(boolean esVolador, float dimensionesAnimal) {

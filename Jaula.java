@@ -22,4 +22,15 @@ public class Jaula {
       return residente;
   }
 
+  public void setTamanio(int tamanioJaula) {
+    tamanio = tamanioJaula;
+  }
+
+  public void setClima(String climaJaula) {
+    clima = climaJaula;
+  }
+
+  public void setResidente(Animal residenteJaula) {
+    residente = residenteJaula;
+  }
 }

@@ -9,5 +9,17 @@ public class Jaula {
     clima = climaJaula;
     residente = residenteJaula;
   }
+  
+  public int getTamanio() {
+      return tamanio;
+  }
+  
+  public String getClima() {
+      return clima;      
+  }
+  
+  public Animal getAnimal() {
+      return residente;
+  }
 
 }
